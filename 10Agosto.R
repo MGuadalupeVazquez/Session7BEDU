@@ -154,8 +154,10 @@ str(JsonData)                       # Vemos la naturaleza de sus variables
 
 # Finalmente ya que pudimos acceder al contenido del Json, tambien podemos 
 # realizar la manipulacionn de los datos dentro del Json, por ejemplo:
+(df <- data.frame(JsonData))
 
 sqrt(JsonData$Mobile)
+
 
 # Para entrar a las demas variables recuerda que puedas usar el operador de $, 
 # es decir, JsonData$
